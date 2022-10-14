@@ -47,7 +47,7 @@ a {
   font-weight: bold;
 }
 
-a .A:active {
+.A:focus {
   color: rgb(238, 23, 23);
   font-size: px;
 }
