@@ -758,11 +758,21 @@ label #cancel {
 }
 
 @media(max-width:425px){
+.container{
+  margin: 30px 20px 30px 20px;
+  padding: 0px;
+}
+
   .showcase-img-main{
     width: 160px;
-    left: 60px;
+    left: 80px;
   }
 
+  .showcase-i-f-1-notes,
+  .showcase-i-f-2-notes,
+  .showcase-i-f-3-notes{
+    padding-right: 0px;
+  }
   .showcase-info-header{
     font-size: 32px;
     width: 315px;
@@ -788,6 +798,7 @@ label #cancel {
     font-size: 12px;
   }
 
+
   .showcase-i-rocket{
     width: 70px;
   }
@@ -805,10 +816,66 @@ label #cancel {
   }
 }
 
+@media(max-width:360px){
+
+}
+
 @media(max-width:320px){
-  .login-signup{
-    position: absolute;
-    top: 38px;
-    right: -30px;
+
+
+  .login{
+    margin-right: 10px;
+    font-size: 15px;
+    
+  }
+
+  .signup{
+    padding: 4px 8px;
+    font-size: 15px;
+  }
+  .container.navbar{
+    margin: 30px 10px 0px 10px;
+  }
+
+  .showcase-img-main{
+    width: 140px;
+    left: 70px;
+    top: 80px;
+  }
+
+  .showcase-i-f-1-notes,
+  .showcase-i-f-2-notes,
+  .showcase-i-f-3-notes{
+    font-size: 8px;
+    width: 85px;
+  }
+
+  .showcase-i-f-1-notes{
+    margin-right: 5px;
+  }
+
+  .showcase-i-f-2-notes{
+    padding-bottom: 9px;
+  }
+
+  .showcase-img-footer{
+    top: 300px;
+  }
+
+  .showcase-info{
+    margin-top: 360px;
+  }
+
+  .showcase-info-header{
+    font-size: 27px;
+  }
+
+  .showcase-info-notes-2{
+    font-size: 14px;
+  }
+
+  .contact-us{
+    margin-bottom: 30px;
+    padding:10px 20px;
   }
 }
