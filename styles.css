@@ -766,12 +766,19 @@ label #cancel {
   .showcase-img-main{
     width: 160px;
     left: 80px;
+    top: 100px;
   }
 
   .showcase-i-f-1-notes,
   .showcase-i-f-2-notes,
   .showcase-i-f-3-notes{
     padding-right: 0px;
+  }
+
+
+
+  .showcase-info{
+    margin-top: 420px;
   }
   .showcase-info-header{
     font-size: 32px;
@@ -796,6 +803,7 @@ label #cancel {
 
   .contact-us{
     font-size: 12px;
+    margin-bottom: 30px;
   }
 
 
@@ -813,6 +821,7 @@ label #cancel {
   .showcase-img-footer{
     left: -10px;
     right: 5px;
+    top: 330px;
     
   }
 }
