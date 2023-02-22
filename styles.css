@@ -811,14 +811,12 @@ label #cancel {
   }
 
   .showcase-img-footer{
-    left: -20px;
+    left: -10px;
     right: 5px;
+    
   }
 }
 
-@media(max-width:360px){
-
-}
 
 @media(max-width:320px){
 
